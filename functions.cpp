@@ -1,8 +1,11 @@
+/*function is a block of reusable code that performs a specific task. 
+It helps in code organization, reusability, and modular programming.*/
+
 #include <iostream>
 #include <cmath> 
 using namespace std;
 
-// User-defined function to calculate the square of a number
+// User-defined function in c++
 int square(int num) {
     return num * num;
 }
@@ -11,6 +14,7 @@ int main() {
     int result = square(5); 
     cout << "Square of 5: " << result << endl;
     
+    //libray function in c++
     double num = 25.0;
 
     cout << "Square root of 25: " << sqrt(num) << endl;
